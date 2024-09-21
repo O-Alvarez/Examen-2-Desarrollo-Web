@@ -1,0 +1,93 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+}
+
+.sidebar a {
+    color: #ffffff;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+}
+
+.sidebar h2 {
+    color: #ffffff;
+}
+
+.sidebar a {
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+/* Estilo para las imágenes en la sección de características */
+#features img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* Espaciado adicional para la sección de características */
+#features .card {
+    padding: 1.5rem;
+}

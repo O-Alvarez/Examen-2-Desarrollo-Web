@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Censo Nacional de Poblacion</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Conoce los resultados del XII censo Nacional de poblacion</h1>
+        <p class="lead">Descubre mas acerca de nuestro País.</p>
+        <a href="https://censo2018.ine.gob.gt/mapas" target="_blank" class="btn btn-light btn-lg">Descubre Más</a>
+    </header>
+
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Características de los Censos en Guatemala</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://noticiasmorelostv.org/wp-content/uploads/2024/03/contenido-noticiasmorelostv-2-4-1000x600.jpg" class="card-img-top" alt="Crecimiento Poblacional">
+                        <div class="card-body">
+                            <h5 class="card-title">Crecimiento Poblacional</h5>
+                            <p class="card-text">Desde el censo de 1950, la población ha crecido más de un 300%. En
+                                2021, se estimaba que Guatemala tenía alrededor de 19 millones de habitantes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://sirse.info/wp-content/uploads/2017/07/hand-MANOS-DIVERSIDAD1917895_1920-800x500_c.png" class="card-img-top" alt="Diversidad Étnica">
+                        <div class="card-body">
+                            <h5 class="card-title">Diversidad Étnica</h5>
+                            <p class="card-text">El censo de 2018 reveló que aproximadamente el 40% de la población se
+                                identifica como indígena, representando múltiples grupos étnicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://profuturo.education/wp-content/uploads/2023/08/LTM-portada-1-1.png" class="card-img-top" alt="Índice de Alfabetización">
+                        <div class="card-body">
+                            <h5 class="card-title">Índice de Alfabetización</h5>
+                            <p class="card-text">El censo de 2021 mostró un índice de alfabetización del 81%, aunque hay
+                                disparidades significativas entre áreas urbanas y rurales.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega más tarjetas según sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 pt-3">
+        <div class="container">
+            <h2 class="text-center mb-4">Características de los Censos en Guatemala</h2>
+
+            <label class="mb-3" for="municipio">Departamento</label>
+            <select class="form-control" id="municipio" onchange="Buscar()">
+                <option value="999">Departamento el Progreso</option>
+                <option value="201">Guastatoya</option>
+                <option value="202">Morazán</option>
+                <option value="203">San Agustín</option>
+                <option value="204">San Cristobal</option>
+                <option value="205">El jícaro</option>
+                <option value="206">Sansares</option>
+                <option value="207">Sanarate</option>
+                <option value="208">San Antonio la Paz</option>
+            </select>
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Tarjetas de Estadísticas</h2>
+                <div class="row" id="Estadisticas">
+                    
+                </div>
+            </div>
+            
+
+
+
+
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+
+</html>
